@@ -1,0 +1,62 @@
+.skills-container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #0077ff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skill-card {
+    background-color: #f8f8f8;
+    padding: 1rem 1.2rem;
+    border-left: 5px solid #0077ff;
+    border-right: 5px solid #0077ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skill-name {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .skill-level {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .skill-level.basic {
+    background-color: #ffa500;
+  }
+  
+  .skill-level.medium {
+    background-color: #0077ff;
+  }
+  
+  .skill-level.advanced {
+    background-color: #28a745;
+  }
+  

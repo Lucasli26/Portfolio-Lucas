@@ -1,0 +1,110 @@
+.cv-container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  .cv-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #0077ff;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .photo img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077ff;
+  }
+  
+  .info h1 {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .info h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info p {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .info a {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  .info a:hover {
+    text-decoration: underline;
+  }
+  
+  .cv-section {
+    margin-bottom: 1.7rem;
+  }
+  
+  .cv-section h3 {
+    font-size: 1.2rem;
+    color: #0077ff;
+    border-bottom: 1px solid #0077ff;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  ul.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 1rem; */
+    padding-left: 1.5rem;
+  }
+  
+  ul.inline-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  @media print {
+    body {
+      background-color: white;
+    }
+  
+    .cv-container {
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      border-radius: 0;
+    }
+  
+    a {
+      color: black !important;
+    }
+  
+    .cv-header {
+      flex-direction: row;
+      border-color: black;
+    }
+  
+    .cv-section h3 {
+      color: black;
+      border-color: black;
+    }
+  }
+  
