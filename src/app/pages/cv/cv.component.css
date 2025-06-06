@@ -1,3 +1,18 @@
+.cv-section ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.cv-section ul li {
+  position: relative;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* .cv-section ul li::before */
+
+
 .cv-container {
     max-width: 850px;
     margin: 2rem auto;
